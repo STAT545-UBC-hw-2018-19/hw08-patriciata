@@ -5,6 +5,13 @@ Final Shiny App can be found [here](https://triciaa.shinyapps.io/bcl_app/).
 
 Data and boilerplate template code for this assignment was taken from Dean Attali's [tutorial](https://deanattali.com/blog/building-shiny-apps-tutorial/) (code [here](https://deanattali.com/blog/building-shiny-apps-tutorial/#12-final-shiny-app-code)). Data contains all products sold by BC Liquor, originally found [here](https://www.opendatabc.ca/dataset/bc-liquor-store-product-price-list-current-prices) and [here](http://pub.data.gov.bc.ca/datasets/176284/BC_Liquor_Store_Product_Price_List.csv).
 
+|  Assignment Files    |     |
+|-----------|-------------|
+|[BC Liquor App](https://triciaa.shinyapps.io/bcl_app/)| App hosted on shinyapps.io |
+|[app.R](https://github.com/STAT545-UBC-students/hw08-patriciata/blob/master/bcl_app/app.R)| Code for this Shiny app, with links and comments |
+|[bcl_data.csv](https://github.com/STAT545-UBC-students/hw08-patriciata/blob/master/bcl_app/bcl-data.csv)| Dataset used in the app |
+
+
 Elements added were:
 - Addition of Shiny theme with shinythemes
 - Selection of multiple alcohol types
@@ -17,11 +24,4 @@ Elements added were:
 - Addition of tabs
 - Visualization of BC Liquor data as a network of countries and drinks
 - (Minor tweaks to histogram)
-
-
-|  Assignment Files    |     |
-|-----------|-------------|
-|[BC Liquor App](https://triciaa.shinyapps.io/bcl_app/)| App hosted on shinyapps.io |
-|[app.R]()| Code for this Shiny app, with links and comments |
-|[bcl_data.csv]()| Dataset used in the app |
 
