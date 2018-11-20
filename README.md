@@ -14,6 +14,8 @@ Elements added were:
 - Selection of binwidth
 - Hide and show binwidth selector using shinyjs
 - Update max of bin width selector according to maximum price limit selected 
+- Addition of tabs
+- Visualization of BC Liquor data as a network of countries and drinks
 - (Minor tweaks to histogram)
 
 
