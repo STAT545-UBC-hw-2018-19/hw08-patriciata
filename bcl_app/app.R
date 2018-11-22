@@ -79,9 +79,9 @@ server <- function(input, output, session) {
     })
 
     observeEvent(input$priceInput,{ # Do this if priceInput changes
-        # The maximum on the binwidth slider should only reach 0.5*max range of data
+        # The maximum on the binwidth slider should only reach 0.5*range of data
         # (ie. histogram should have at least two bins)
-        updateSliderInput(session, "binwidthInput", max = input$priceInput[2]/2)
+        updateSliderInput(session, "binwidthInput", max = (input$priceInput[2]-input$priceInput[1])/2)
     })
 
     bcl_filtered <- reactive({ # Filter data, store as reactive variable
